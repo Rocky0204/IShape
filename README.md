@@ -1,9 +1,7 @@
 # Shape Drawing System
-
-A .NET console application that demonstrates object-oriented programming principles by drawing various geometric shapes. Mainly using abstraction.
+A .NET console application that demonstrates object-oriented programming principles by drawing various geometric shapes. Mainly demonstrating abstraction.
 
 ## Features
-
 - **Circle**: Draws filled circles with configurable radius
 - **Rectangle**: Draws filled rectangles with configurable dimensions
 - **Triangle**: Draws various triangle types (Right, Equilateral, Isosceles, Inverted)
@@ -11,7 +9,6 @@ A .NET console application that demonstrates object-oriented programming princip
 - **Abstraction**: Uses abstract base class for common functionality
 
 ## Shapes Supported
-
 1. **Circle**
    - Configurable radius
    - Default radius: 5 units
@@ -45,12 +42,10 @@ IShape/
 
 
 ## Prerequisites
-
 - .NET 8.0 SDK or later
 - Git (for version control)
 
 ## Building and Running
-
 ### Using .NET CLI
 
 # Build the solution

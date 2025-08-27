@@ -1,5 +1,4 @@
-﻿// ShapeTests.cs
-using Xunit;
+﻿using Xunit;
 using IShape;
 using System;
 using System.IO;

@@ -1,9 +1,5 @@
-﻿// IShape.cs
-namespace IShape
+﻿namespace IShape
 {
-    /// <summary>
-    /// Interface for drawable shapes with only Draw method
-    /// </summary>
     public interface IShape
     {
         /// <summary>

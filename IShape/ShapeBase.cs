@@ -1,5 +1,4 @@
-﻿// ShapeBase.cs
-namespace IShape
+﻿namespace IShape
 {
     /// <summary>
     /// Abstract base class for all shapes providing common functionality
@@ -7,7 +6,6 @@ namespace IShape
     public abstract class ShapeBase : IShape
     {
         protected string _name;
-
         /// <summary>
         /// Name of the shape
         /// </summary>
@@ -16,7 +14,6 @@ namespace IShape
             get => _name;
             protected set => _name = value;
         }
-
         /// <summary>
         /// Default constructor
         /// </summary>
@@ -24,12 +21,10 @@ namespace IShape
         {
             _name = name;
         }
-
         /// <summary>
         /// Abstract method to draw the shape - must be implemented by derived classes
         /// </summary>
         public abstract void Draw();
-
         /// <summary>
         /// Validates if a value is positive, returns default if not
         /// </summary>
