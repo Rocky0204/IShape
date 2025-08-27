@@ -31,9 +31,9 @@ public class Program
         {
             new Circle(),
             new Rectangle(8, 4),
-            new Triangle(6, Triangle.TriangleType.Right)
-            new Triangle(5, Triangle.TriangleType.Equilateral)
-            new Triangle(4, Triangle.TriangleType.Inverted)
+            new Triangle(6, Triangle.TriangleType.Right),
+            new Triangle(5, Triangle.TriangleType.Equilateral),
+            new Triangle(4, Triangle.TriangleType.Inverted),
             new Triangle(5, Triangle.TriangleType.Isosceles)
         };
         foreach (IShape shape in shapes)
@@ -67,8 +67,8 @@ public class Program
         Triangle isoscelesTriangle = new Triangle(9, Triangle.TriangleType.Isosceles);
         isoscelesTriangle.Draw();
         Console.WriteLine();
-        Triangle equilateralTriangle = new Triangle(7, Triangle.TriangleType.Right);
-        equilateralTriangle.Draw();
+        Triangle equilateralTriangle2  = new Triangle(7, Triangle.TriangleType.Right);
+        equilateralTriangle2.Draw();
         Console.WriteLine();
     }
 
